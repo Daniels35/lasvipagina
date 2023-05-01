@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Ignora todas las rutas que comiencen con /posts y /send-email
+    RewriteCond %{REQUEST_URI} !^/posts
+    RewriteCond %{REQUEST_URI} !^/send-email
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^.*$ /index.html [L]
+</IfModule>

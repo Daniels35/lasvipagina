@@ -1,0 +1,20 @@
+.custom-carousel {
+    color: #0000;
+    width: 13.125rem;
+	height: 13.125rem;
+	position: relative;
+	margin: 0 auto;
+	perspective: 62.5rem;
+  }
+  .custom-carousel img {
+    border-radius: 15px;
+  }
+  .custom-carousel__controls button {
+    background-color: #0098CA;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  .custom-carousel__controls button:hover {
+    opacity: 0.7;
+    cursor: pointer; 
+  }

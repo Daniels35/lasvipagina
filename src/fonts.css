@@ -1,0 +1,46 @@
+/* Decalotype */
+@font-face {
+    font-family: 'Decalotype-Bold';
+    src: url('./fonts/decalotype/WEB/Decalotype-Bold.eot');
+    src: url('./fonts/decalotype/WEB/Decalotype-Bold.woff2') format('woff2'),
+         url('./fonts/decalotype/WEB/Decalotype-Bold.woff') format('woff'),
+         url('./fonts/decalotype/WEB/Decalotype-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Decalotype-Light';
+    src: url('./fonts/decalotype/WEB/Decalotype-Light.eot');
+    src: url('./fonts/decalotype/WEB/Decalotype-Light.woff2') format('woff2'),
+         url('./fonts/decalotype/WEB/Decalotype-Light.woff') format('woff'),
+         url('./fonts/decalotype/WEB/Decalotype-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Decalotype-Medium';
+    src: url('./fonts/decalotype/WEB/Decalotype-Medium.eot');
+    src: url('./fonts/decalotype/WEB/Decalotype-Medium.woff2') format('woff2'),
+         url('./fonts/decalotype/WEB/Decalotype-Medium.woff') format('woff'),
+         url('./fonts/decalotype/WEB/Decalotype-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* Nunito */
+  @font-face {
+    font-family: 'Nunito-Bold';
+    src: url('./fonts/nunito/static/Nunito-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Nunito-Regular';
+    src: url('./fonts/nunito/static/Nunito-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
