@@ -16,11 +16,11 @@ import imagex from '../../assets/images/x.webp';
 
 const Pinzas = () => {
   
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
 useEffect(() => {
   const checkIsMobile = () => {
-    setIsMobile(window.matchMedia('(max-width: 768px)').matches);
+    setIsMobile(window.innerWidth <= 768);
   };
 
   window.addEventListener('resize', checkIsMobile);
@@ -116,7 +116,7 @@ useEffect(() => {
       <div ref={refBanner2}>
       <PinzasContent>
         <p>
-          Dentro del estudio de la Acupuntura aparece, como una de las materias principales, la Acupuntura Auricular. Esta técnica consiste en estimular determinados puntos situados en el pabellón auricular, en los que se reflejan cada una de las partes en las que se divide en organismo humano: la columna vertebral, la cabeza, los miembros superiores e inferiores, los órganos principales y otras.
+          Dentro del estudio de la Acupuntura aparece, como una de las materias principales, la Acupuntura Auricular. Esta técnica consiste en estimular determinados puntos situados en el pabellón auricular, en los que se reflejan cada una de las partes en las que se divide el organismo humano: la columna vertebral, la cabeza, los miembros superiores e inferiores, los órganos principales y otras.
         </p>
       </PinzasContent>
       </div>

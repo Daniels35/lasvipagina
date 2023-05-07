@@ -18,13 +18,13 @@ const VideoPlayer = () => {
       <VideoContainer >
         
             <VideoWrapper>
-              <YouTube videoId="1QZ6cInP9Gs" opts={opts} />
+               <iframe width="350" height="255" src="https://www.youtube.com/embed/1QZ6cInP9Gs?rel=0&showinfo=0&controls=0" title="Pinzas Lasvi"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </VideoWrapper>
             <VideoWrapper>
-              <YouTube videoId="n3OxhJG9M2I" opts={opts} />
+              <iframe width="350" height="255" src="https://www.youtube.com/embed/n3OxhJG9M2I?rel=0&showinfo=0&controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </VideoWrapper>
             <VideoWrapper>
-              <YouTube videoId="tBJYo8_LwwY" opts={opts} />
+            <iframe width="350" height="255" src="https://www.youtube.com/embed/tBJYo8_LwwY?rel=0&showinfo=0&controls=0" title="Pinzas Lasvi Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </VideoWrapper>
        
       </VideoContainer>

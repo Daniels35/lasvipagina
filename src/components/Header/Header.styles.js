@@ -54,6 +54,7 @@ export const Navigation = styled.nav`
     opacity: 0.96;
     position: absolute;
     top: 200px;
+    border-bottom: 8px solid #0098CA;
     left: 0;
     right: 0;
     background-color: #fff;

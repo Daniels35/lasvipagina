@@ -61,8 +61,9 @@ const Home = () => {
   <div> 
     <ContentTitle>¿Qué son las Pinzas Lasvi?</ContentTitle>
     <ContentText>
-      Son una herramienta, en forma de media luna, con un sistema lateral de presión  que sirve para <strong>aliviar las molestias de cuello, espalda y articulaciones, entre otros beneficios cómo la mejoría del estrés, la ansiedad, la perdida de volumen corporal y el insomnio, entre otros.</strong><br /><br />
-      Estos efectos se producen debido a la presión ejercida por la placa exterior, y sus  salientes, sobre la zona reflexológica de la columna vertebral en la oreja.
+      Son una herramienta, en forma de media luna, con un sistema lateral de presión  que sirve para <strong>aliviar las molestias de cuello, espalda y articulaciones, entre otros beneficios cómo la mejoría del estrés, la ansiedad, la perdida de volumen corporal y el insomnio, entre otros.</strong><br />
+      Estos efectos se producen debido a la presión ejercida por la placa exterior, y sus  salientes, sobre la zona reflexológica de la columna vertebral en la oreja.<br /><br/>
+      Las pinzas Lasvi fueron desarolladas por el profesor D. Carlos Lasvi y su compañero el acupuntor D. Jesús García en su consulta de la Gran Vía n°, 61 de Madrid (España).
     </ContentText>
     <ButtonContainer>
       <Link to="/pinzas">

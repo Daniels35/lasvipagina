@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
   padding: 2rem;
 `;
 export const ContentImage = styled.img`
-width: 80%;
+width: 90%;
 height: auto;
 border-radius: 10px;
 display: block;

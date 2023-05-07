@@ -40,7 +40,7 @@ const Contact = () => {
       clearErrors(error);
     });
   };
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [loading, setLoading] = React.useState(false);
   const { register, handleSubmit, reset, clearErrors, formState: { errors } } = useForm();
   const onSubmit = async (data) => {
@@ -71,7 +71,7 @@ const Contact = () => {
   };
   useEffect(() => {
     const checkIsMobile = () => {
-      setIsMobile(window.matchMedia('(max-width: 768px)').matches);
+      setIsMobile(window.innerWidth <= 768);
     };
     if (!loading) {
       clearAllErrors();

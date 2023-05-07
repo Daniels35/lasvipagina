@@ -13,10 +13,10 @@ const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 useEffect(() => {
   const checkIsMobile = () => {
-    setIsMobile(window.matchMedia('(max-width: 768px)').matches);
+    setIsMobile(window.innerWidth <= 768);
   };
   window.addEventListener('resize', checkIsMobile);
   checkIsMobile();

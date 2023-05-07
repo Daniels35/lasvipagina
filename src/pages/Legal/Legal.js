@@ -26,7 +26,7 @@ const Legal = () => {
         Al utilizar nuestro sitio, aceptas nuestra política de cookies. Si prefieres no aceptar cookies, puedes cambiar la configuración de tu navegador para rechazarlas.
       </LegalText>
       <LegalText>
-        Utilizamos la información recopilada a través de las cookies para mejorar la experiencia del usuario, entender cómo se utiliza el sitio y personalizar la experiencia. También podemos utilizar la información para fines publicitarios o para compartirla con terceros.
+        Utilizamos la información recopilada a través de las cookies para mejorar la experiencia del usuario, entender cómo se utiliza el sitio y personalizar la experiencia. También podemos utilizar la información para fines publicitarios.
       </LegalText>
       <LegalTitle>Política de Privacidad</LegalTitle>
       <LegalText>

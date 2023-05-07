@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="/legal">Política de cookies</a>
         </FooterLink>
       </FooterLinks>
-      <p>Desarollado por Daniel Diaz para Lasvi. &copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
+      <a href='https://daniels35.com/' target='_blank'><p>Desarollado por Daniel Diaz para Lasvi. &copy; {new Date().getFullYear()} Todos los derechos reservados.</p></a>
     </StyledFooter>
   );
 };
