@@ -27,4 +27,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
-Página desarollada por Daniel Diaz para la marca Lasvi de españa, el archivo .htaccess le indica al servidor el manejo de las rutas para obtener los datos del backend para el Blog, 
+Page developed by Daniel Diaz for the Lasvi brand from Spain, the .htaccess file instructs the server on handling routes to fetch backend data for the Blog and email sending. For more information, visit Daniels35.com and contact me.  
