@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <LogoContainer>
-        <NavLink to="/" onClick={closeMobileNav}>
+        <NavLink to="/lasvipagina" onClick={closeMobileNav}>
           <img src={logo} alt="Logo" />
         </NavLink>
       </LogoContainer>
@@ -29,25 +29,25 @@ const Header = () => {
       </HamburgerButton>
       <Navigation open={mobileNavOpen} className={mobileNavOpen ? 'slide-in' : 'slide-out'}>
         <NavItem>
-          <NavLink to="/"  activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina"  activeclassname="active" onClick={closeMobileNav}>
             INICIO
           </NavLink>
           <span className="separator">|</span>
         </NavItem>
         <NavItem>
-          <NavLink to="/pinzas"  activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina/pinzas"  activeclassname="active" onClick={closeMobileNav}>
             CÓMO SE USAN
           </NavLink>
           <span className="separator">|</span>
         </NavItem>
         <NavItem>
-          <NavLink to="/about" activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina/about" activeclassname="active" onClick={closeMobileNav}>
             SOBRE CARLOS LASVI
           </NavLink>
           <span className="separator">|</span>
         </NavItem>
         <NavItem>
-          <NavLink to="/use"  activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina/use"  activeclassname="active" onClick={closeMobileNav}>
             PARA QUE SIRVEN
           </NavLink>
           <span className="separator">|</span>
@@ -59,13 +59,13 @@ const Header = () => {
           <span className="separator">|</span>
         </NavItem> */}
         <NavItem>
-          <NavLink to="/blog" activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina/blog" activeclassname="active" onClick={closeMobileNav}>
             BLOG
           </NavLink>
           <span className="separator">|</span>
         </NavItem>
         <NavItem>
-          <NavLink to="/contact" activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina/contact" activeclassname="active" onClick={closeMobileNav}>
             CONTACTO
           </NavLink>
           <span className="separator">|</span>

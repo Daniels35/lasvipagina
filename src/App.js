@@ -31,16 +31,16 @@ const App = () => {
           <Header />
           <MainContent>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/pinzas" element={<Pinzas />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/use" element={<Use />} />
-              <Route path="/product" element={<Courses />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/blog/:postId" element={<Post />} />
-              <Route path="/blog/new" element={<NewPostPage />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/legal" element={<Legal />} />
+              <Route path="/lasvipagina" element={<Home />} />
+              <Route path="/lasvipagina/pinzas" element={<Pinzas />} />
+              <Route path="/lasvipagina/about" element={<About />} />
+              <Route path="/lasvipagina/use" element={<Use />} />
+              <Route path="/lasvipagina/product" element={<Courses />} />
+              <Route path="/lasvipagina/blog" element={<Blog />} />
+              <Route path="/lasvipagina/blog/:postId" element={<Post />} />
+              <Route path="/lasvipagina/blog/new" element={<NewPostPage />} />
+              <Route path="/lasvipagina/contact" element={<Contact />} />
+              <Route path="/lasvipagina/legal" element={<Legal />} />
               {/* Añade más rutas según sea necesario */}
             </Routes>
             <WhatsAppButton />

@@ -6,13 +6,13 @@ const Footer = () => {
     <StyledFooter>
       <FooterLinks>
         <FooterLink>
-          <a href="/legal">Aviso legal</a>
+          <a href="#">Aviso legal</a>
         </FooterLink>
         <FooterLink>
-          <a href="/legal">Política de privacidad</a>
+          <a href="#">Política de privacidad</a>
         </FooterLink>
         <FooterLink>
-          <a href="/legal">Política de cookies</a>
+          <a href="#">Política de cookies</a>
         </FooterLink>
       </FooterLinks>
       <a href='https://daniels35.com/' target='_blank'><p>Desarollado por Daniel Diaz para Lasvi. &copy; {new Date().getFullYear()} Todos los derechos reservados.</p></a>
