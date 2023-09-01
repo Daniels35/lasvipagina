@@ -29,7 +29,7 @@ const Header = () => {
       </HamburgerButton>
       <Navigation open={mobileNavOpen} className={mobileNavOpen ? 'slide-in' : 'slide-out'}>
         <NavItem>
-          <NavLink to="/lasvipagina"  activeclassname="active" onClick={closeMobileNav}>
+          <NavLink to="/lasvipagina/"  activeclassname="active" onClick={closeMobileNav}>
             INICIO
           </NavLink>
           <span className="separator">|</span>

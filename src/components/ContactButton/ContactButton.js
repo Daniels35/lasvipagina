@@ -4,7 +4,7 @@ import { ContactButtonContainer, ContactButton } from './ContactButton.styles';
 const ContactButtonComponent = () => {
   return (
     <ContactButtonContainer>
-      <ContactButton to="/contact">Contactar</ContactButton>
+      <ContactButton to="/lasvipagina/contact">Contactar</ContactButton>
     </ContactButtonContainer>
   );
 };

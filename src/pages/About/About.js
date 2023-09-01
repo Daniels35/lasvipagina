@@ -41,13 +41,13 @@ useEffect(() => {
       </AboutContent>
       <ContactButtonComponent />
       <SocialLinks>
-  <a href="https://www.facebook.com/profile.php?id=100091206572048" target="_blank" rel="noreferrer">
+  <a href="#" target="_blank" rel="noreferrer">
     <FaFacebookF size={24} color="#1877F2" />
   </a>
-  <a href="https://www.instagram.com/pinzaslasvi/" target="_blank" rel="noreferrer">
+  <a href="#" target="_blank" rel="noreferrer">
     <FaInstagram size={24} color="#C13584" />
   </a>
-  <a href="https://www.youtube.com/@PinzasLasvi" target="_blank" rel="noreferrer">
+  <a href="#" target="_blank" rel="noreferrer">
     <FaYoutube size={24} color="#FF0000" />
   </a>
 </SocialLinks>
