@@ -66,7 +66,7 @@ const Home = () => {
       Las pinzas Lasvi fueron desarolladas por el profesor D. Carlos Lasvi y su compañero el acupuntor D. Jesús García en su consulta de la Gran Vía n°, 61 de Madrid (España).
     </ContentText>
     <ButtonContainer>
-      <Link to="/pinzas">
+      <Link to="/lasvipagina/pinzas">
         <LearnMoreButton>Saber Más</LearnMoreButton>
       </Link>
     </ButtonContainer>
@@ -79,7 +79,7 @@ const Home = () => {
           Se considera uno de las mayores autoridades internacionales en acupuntura, ha impartido clases en diferentes escuelas, universidades y hospitales del mundo. Fundador de la Escuela Superior de Acupuntura CML Lasvi. <strong>Más información en <Link to="https://www.escueladeacupunturalasvi.es/" target="_blank">www.cmllasvi.es</Link></strong>
 </ContentText>
 <ButtonContainer>
-  <Link to ="/about">
+  <Link to ="/lasvipagina/about">
   <LearnMoreButton>Saber Más</LearnMoreButton>
   </Link>
 </ButtonContainer>

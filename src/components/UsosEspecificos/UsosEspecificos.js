@@ -22,21 +22,21 @@ const UsosEspecificos = () => {
           <UsosEspecificosImage src={image2} alt="Control del estrés y ansiedad" />
           <UsosEspecificosTitle>Dolor de cuello y espalda</UsosEspecificosTitle>
           <UsosEspecificosButton>
-            <HashLink to="/use#manejo">Saber Más</HashLink>
+            <HashLink to="/lasvipagina/use#manejo">Saber Más</HashLink>
           </UsosEspecificosButton>
         </UsosEspecificosItem>
         <UsosEspecificosItem>
           <UsosEspecificosImage src={image1} alt="Manejo del dolor" />
           <UsosEspecificosTitle>Control del estrés y la ansiedad</UsosEspecificosTitle>
           <UsosEspecificosButton>
-            <HashLink to="/use#control">Saber Más</HashLink>
+            <HashLink to="/lasvipagina/use#control">Saber Más</HashLink>
           </UsosEspecificosButton>
         </UsosEspecificosItem>
         <UsosEspecificosItem>
           <UsosEspecificosImage src={image3} alt="Control del peso" />
           <UsosEspecificosTitle>Control de peso</UsosEspecificosTitle>
           <UsosEspecificosButton>
-            <HashLink to="/use#peso">Saber Más</HashLink>
+            <HashLink to="/lasvipagina/use#peso">Saber Más</HashLink>
           </UsosEspecificosButton>
         </UsosEspecificosItem>
       </UsosEspecificosWrapper>
@@ -45,14 +45,14 @@ const UsosEspecificos = () => {
           <UsosEspecificosImage src={image4} alt="Relajacion Muscular" />
           <UsosEspecificosTitle>Relajación Muscular</UsosEspecificosTitle>
           <UsosEspecificosButton>
-            <HashLink to="/use#deportistas">Saber Más</HashLink>
+            <HashLink to="/lasvipagina/use#deportistas">Saber Más</HashLink>
           </UsosEspecificosButton>
         </UsosEspecificosItem>
         <UsosEspecificosItem>
           <UsosEspecificosImage src={image5} alt="Insomnio" />
           <UsosEspecificosTitle>Insomnio</UsosEspecificosTitle>
           <UsosEspecificosButton>
-            <HashLink to="/use#insomnio">Saber Más</HashLink>
+            <HashLink to="/lasvipagina/use#insomnio">Saber Más</HashLink>
           </UsosEspecificosButton>
         </UsosEspecificosItem>
         </Centrado>
