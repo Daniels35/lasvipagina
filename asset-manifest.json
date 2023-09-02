@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lasvipagina/static/css/main.1e02eb03.css",
-    "main.js": "/lasvipagina/static/js/main.0a59755d.js",
+    "main.js": "/lasvipagina/static/js/main.99156786.js",
     "static/media/x.webp": "/lasvipagina/static/media/x.08199717314dec09de98.webp",
     "static/media/3.webp": "/lasvipagina/static/media/3.09b3a8edacd010a3a5ae.webp",
     "static/media/contact.webp": "/lasvipagina/static/media/contact.fb54c02db1a55848d9ed.webp",
@@ -46,10 +46,10 @@
     "static/media/slick.woff": "/lasvipagina/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lasvipagina/index.html",
     "main.1e02eb03.css.map": "/lasvipagina/static/css/main.1e02eb03.css.map",
-    "main.0a59755d.js.map": "/lasvipagina/static/js/main.0a59755d.js.map"
+    "main.99156786.js.map": "/lasvipagina/static/js/main.99156786.js.map"
   },
   "entrypoints": [
     "static/css/main.1e02eb03.css",
-    "static/js/main.0a59755d.js"
+    "static/js/main.99156786.js"
   ]
 }
