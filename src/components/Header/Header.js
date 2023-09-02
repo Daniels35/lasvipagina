@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <LogoContainer>
-        <NavLink to="/lasvipagina" onClick={closeMobileNav}>
+        <NavLink to="/lasvipagina/" onClick={closeMobileNav}>
           <img src={logo} alt="Logo" />
         </NavLink>
       </LogoContainer>
