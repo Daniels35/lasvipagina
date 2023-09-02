@@ -1,4 +1,3 @@
-// components/RecommendedPosts/RecommendedPosts.js
 import React from 'react';
 import {
   RecommendedContainer,
@@ -23,7 +22,7 @@ const RecommendedPosts = ({ posts }) => {
       <RecommendedTitle>Publicaciones recomendadas</RecommendedTitle>
       {posts.map((post) => (
         <RecommendedPost key={post.id}>
-          <StyledLink to={`/blog/${post.id}`} onClick={scrollToTop}>
+          <StyledLink to={`/lasvipagina/blog/${post.id}`} onClick={scrollToTop}>
             <PostImage src={post.image_url} alt={post.title} />
             <PostTitle>{post.title}</PostTitle>
             <PostCategory>Categoría: {post.category}</PostCategory>

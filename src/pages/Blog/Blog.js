@@ -32,7 +32,7 @@ const Blog = () => {
     fetchPosts();
   }, [currentPage, category, searchTerm]);
   const fetchPosts = () => {
-    let url = `/posts?page=${currentPage}&limit=6`;
+    let url = `https://carwashmanager.online/posts?page=${currentPage}&limit=6`;
     if (category) {
       url += `&category=${category}`;
     }
@@ -84,7 +84,7 @@ const Blog = () => {
       <SearchContainer>
   <label>
     <span className="search-container">
-      <div style={{ position: "relative" }}> {/* Añade este div */}
+      <div style={{ position: "relative" }}>
         <SearchInput
           type="text"
           value={pendingSearchTerm}

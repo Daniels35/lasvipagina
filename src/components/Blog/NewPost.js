@@ -27,7 +27,7 @@ const NewPost = () => {
       category,
       summary,
     };
-    fetch('/posts', {
+    fetch('pinzaslasvi.com/posts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

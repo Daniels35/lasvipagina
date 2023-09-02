@@ -37,7 +37,7 @@ const Post = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/posts/${postId}`);
+        const response = await fetch(`https://carwashmanager.online/posts/${postId}`);
         const data = await response.json();
         setPost(data);
         console.log(data);
@@ -54,7 +54,7 @@ const Post = () => {
   const fetchRecommendedPosts = async () => {
   try {
     const limit = 3;
-    const countResponse = await fetch(`/posts/count`);
+    const countResponse = await fetch(`https://carwashmanager.online/posts/count`);
     const totalCount = await countResponse.json();
     const randomIndices = new Set();
     while (randomIndices.size < limit) {
@@ -64,7 +64,7 @@ const Post = () => {
       }
     }
     const postsPromises = Array.from(randomIndices).map((index) =>
-      fetch(`/posts/${index}`).then((response) =>
+      fetch(`https://carwashmanager.online/posts/${index}`).then((response) =>
         response.json()
       )
     );

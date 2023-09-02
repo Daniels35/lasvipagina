@@ -24,7 +24,7 @@ const PostList = ({ posts, searchTerm, highlightSearchTerm }) => {
   return (
     <div style={styles.mainContainer}>
       {sortedPosts.map((post) => (
-        <Link to={`/blog/${post.id}`} key={post.id}>
+        <Link to={`/lasvipagina/blog/${post.id}`} key={post.id}>
           <div style={styles.postContainer}>
             {isNewPost(post.created_at) && (
               <div style={styles.starContainer}>
