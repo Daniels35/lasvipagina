@@ -11,7 +11,7 @@ const WhatsAppButton = () => {
     return () => clearInterval(interval);
   }, []);
   const handleClick = () => {
-    window.open('https://wa.me/573206449915', '_blank');
+    window.open('https://wa.me/573135804424', '_blank');
   };
   return (
     <WhatsAppButtonContainer onClick={handleClick}>

@@ -1,5 +1,3 @@
-// components/ImageCarousel/ImageCarousel.styles.js
-
 import styled from '@emotion/styled';
 
 export const CarouselContainer = styled.div`
@@ -7,8 +5,12 @@ export const CarouselContainer = styled.div`
 `;
 export const CarouselImage = styled.img`
   width: 100%;
-  height: 100%;
+  min-height: 450px;
   padding: 1% 1% 1% 1%;
-  max-height: 450px; // Ajusta este valor según tus necesidades
+  min-height: 450px;
   object-fit: fill;
+
+  @media (max-width: 630px) {
+    min-height: 200px;
+  }
 `;

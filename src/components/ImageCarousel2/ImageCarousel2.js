@@ -128,11 +128,12 @@ const Modal = ({ image, onClose, onNext, onPrev }) => {
         style={{
           position: 'absolute',
           top: '50%',
-          left: '1rem',
-          color: 'white',
-          fontSize: '2rem',
+          left: '1.5rem',
+          color: 'black',
+          fontSize: '3rem',
           cursor: 'pointer',
           transform: 'translateY(-50%)',
+          zIndex: 1001,
         }}
         onClick={(e) => {
           e.stopPropagation();
@@ -145,11 +146,12 @@ const Modal = ({ image, onClose, onNext, onPrev }) => {
         style={{
           position: 'absolute',
           top: '50%',
-          right: '1rem',
-          color: 'white',
-          fontSize: '2rem',
+          right: '1.5rem',
+          color: 'black',
+          fontSize: '3rem',
           cursor: 'pointer',
           transform: 'translateY(-50%)',
+          zIndex: 1001,
         }}
         onClick={(e) => {
           e.stopPropagation();

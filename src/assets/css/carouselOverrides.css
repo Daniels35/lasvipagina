@@ -18,3 +18,19 @@
     opacity: 0.7;
     cursor: pointer; 
   }
+
+  .carousel.carousel-slider {
+    height: 450px;
+  }
+  
+  @media (max-width: 630px) {
+    .carousel.carousel-slider {
+      height: 200px;
+    }
+    @media (min-width: 460px) and (max-width: 630px) {
+      .carousel.carousel-slider {
+        height: 300px; 
+      }
+    }
+  }
+  

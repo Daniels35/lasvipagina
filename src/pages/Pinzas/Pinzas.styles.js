@@ -90,7 +90,7 @@ export const CardTitle = styled.h2`
 export const CardContent = styled.div`
   font-size: 1.2rem;
   text-align: justify;
-  margin: 1rem 0;
+  margin: 1.2rem 0;
 `;
 export const UseContainer = styled.div`
   padding: 2rem;

@@ -8,6 +8,8 @@ import image3 from '../../assets/images/banner1/3.webp';
 import mobileImage1 from '../../assets/images/banner1/mobile1.webp';
 import mobileImage2 from '../../assets/images/banner1/mobile2.webp';
 import mobileImage3 from '../../assets/images/banner1/mobile3.webp';
+import '../../assets/css/carouselOverrides.css'
+
 const ImageCarousel = () => {
   const [thirdImageLoaded, setThirdImageLoaded] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

@@ -30,4 +30,8 @@ export const SocialButton = styled.a`
   @media (max-width: 370px) {
     font-size: 0.6rem;
   }
+
+  @media (max-width: 320px) {
+    font-size: 0.3rem;
+  }
 `;
