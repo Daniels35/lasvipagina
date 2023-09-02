@@ -7,6 +7,8 @@ const HamburgerButton = ({ onClick, open }) => {
     onClick();
   };
 
+  console.log("isActive:", isActive);
+
   return (
     <MenuButton className={isActive ? 'active' : ''} onClick={handleClick} aria-label="Abrir menú">
       <div className="bar"></div>

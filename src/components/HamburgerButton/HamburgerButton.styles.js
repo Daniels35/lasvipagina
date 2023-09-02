@@ -16,8 +16,9 @@ export const MenuButton = styled.button`
     display: block;
   }
   .bar {
-    width: 100%;
+    width: 20px;
     height: 4px;
+
     background-color: #0098CA;
     transition: all 0.3s ease;
     margin-top: 20%;
