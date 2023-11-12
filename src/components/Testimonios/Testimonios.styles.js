@@ -9,9 +9,9 @@ export const TestimonioWrapper = styled.div`
   text-align: center;
   max-width: 90%;
   max-height: 300px;
-  margin: 0 auto; /* Agregar esta línea para centrar horizontalmente */
+  margin: 0 auto;
   @media (max-width: 768px) {
-    max-height: 350px; // Aumenta el max-height en pantallas pequeñas
+    max-height: 350px;
   }
 `;
 export const TestimonioImage = styled.img`
@@ -25,11 +25,11 @@ export const TestimonioNombre = styled.h4`
   margin-bottom: 0.5rem;
 `;
 export const TestimonioTexto = styled.p`
-max-height: 90px; // Establece un max-height para el texto del testimonio
-overflow-y: auto; // Añade una barra de desplazamiento si el contenido excede el max-height
-padding: 0 1rem; // Agrega un padding horizontal para que el texto no toque los bordes
+max-height: 90px;
+overflow-y: auto; 
+padding: 0 1rem; 
 @media (max-width: 768px) {
-  max-height: 110px; // Aumenta el max-height en pantallas pequeñas
+  max-height: 110px;
 } 
   margin-bottom: 1rem;
 `;
@@ -44,7 +44,7 @@ export const ContentTitle = styled.h2`
   text-align: center;
 `;
 export const ContentText = styled.p`
-  line-height: 1.5rem; // Aumenta el line-height
+  line-height: 1.5rem;
   text-align: justify;
   margin-bottom: 2rem;
   font-size: 1rem;

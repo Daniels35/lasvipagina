@@ -4,13 +4,9 @@ import {
   ContactContainer,
   ContactInfoContainer,
   ContactFormContainer,
-  ContactTitle,
   ContactInfoItem,
-  ContactInfoIcon,
-  ContactInfoText,
   ContactForm,
   FormInput,
-  FormTextArea,
   SubmitButton,
   LogoContainer,
   LogoImage,
@@ -97,7 +93,7 @@ const Contact = () => {
           <LogoImage src={logo} alt="Logo de la empresa" />
         </LogoContainer>
         <Question>Contacte con nosotros.</Question>
-        <ContactForm onSubmit={handleSubmit(onSubmit)} noValidate> {/* Agrega el atributo noValidate para prevenir la validación de HTML5 y agregar la validación personalizada */}
+        <ContactForm onSubmit={handleSubmit(onSubmit)} noValidate>
           <label htmlFor="name" style={{ marginBottom: '-2rem' }}><strong>Nombre y Apellido:</strong></label>
           <FormInput
             type="text"
@@ -105,15 +101,7 @@ const Contact = () => {
             placeholder="Nombre"
             {...register("name", { required: true })}
           />
-          {errors.name && <span style={{color: 'red', fontSize: '0.9rem', margin: '-1.8rem 0 -1.8rem 0'}}>Este campo es obligatorio*</span>}     
-          {/* <label htmlFor="lastname" style={{ marginBottom: '-2rem' }}><strong>Apellido:</strong></label>
-          <FormInput
-            type="text"
-            name="lastname"
-            placeholder="Apellido"
-            {...register("lastname", { required: true })}
-          />
-          {errors.lastname && <span style={{color: 'red', fontSize: '0.9rem', margin: '-1.8rem 0 -1.8rem 0'}}>Este campo es obligatorio*</span>} */}       
+          {errors.name && <span style={{color: 'red', fontSize: '0.9rem', margin: '-1.8rem 0 -1.8rem 0'}}>Este campo es obligatorio*</span>}      
           <label htmlFor="email" style={{ marginBottom: '-2rem' }}><strong>Correo Electrónico:</strong></label>
           <FormInput
             type="email" 
@@ -125,22 +113,6 @@ const Contact = () => {
             })}
           />
           {errors.email && <span style={{color: 'red', fontSize: '0.9rem', margin: '-1.8rem 0 -1.8rem 0'}}>Este campo es obligatorio y debe ser una dirección de correo electrónico válida*</span>}     
-          {/* <label htmlFor="phone" style={{ marginBottom: '-2rem' }}><strong>Número de teléfono:</strong></label>
-<FormInput
-type="tel"
-name="phone"
-placeholder="Número de teléfono"
-{...register("phone", { required: true })}
-/> */}
-{/* {errors.phone && <span style={{color: 'red', fontSize: '0.9rem', margin: '-1.8rem 0 -1.8rem 0'}}>Este campo es obligatorio*</span>} */}
-      {/* <label htmlFor="address" style={{ marginBottom: '-2rem' }}><strong>Dirección postal completa:</strong></label>
-      <FormInput
-        type="text"
-        name="address"
-        placeholder="Dirección postal completa"
-        {...register("address", { required: true })}
-      />
-      {errors.address && <span style={{color: 'red', fontSize: '0.9rem', margin: '-1.8rem 0 -1.8rem 0'}}>Este campo es obligatorio*</span>} */}
       <label htmlFor="product" style={{ marginBottom: '-2rem' }}><strong>Mensaje:</strong></label>
       <FormInput
         type="text"

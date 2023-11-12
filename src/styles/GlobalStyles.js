@@ -43,8 +43,6 @@ const GlobalStyles = () => {
           transition: color 0.3s ease;
         }
 
-        
-
         strong {
           font-family: 'Nunito-Bold', sans-serif;
         }

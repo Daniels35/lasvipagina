@@ -24,7 +24,7 @@ const FormattedDate = ({ dateString }) => {
     const minutes = date.getMinutes().toString().padStart(2, '0');
     const ampm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12;
-    hours = hours ? hours : 12; // Si hours es 0 (12 AM), lo convertimos en 12
+    hours = hours ? hours : 12;
     return `${day} ${month}, ${year}, ${hours}:${minutes} ${ampm}`;
   };
   return <span>{formatDate(dateString)}</span>;

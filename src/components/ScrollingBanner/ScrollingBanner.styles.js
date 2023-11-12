@@ -13,7 +13,6 @@ export const ScrollingContent = styled.div`
   margin-top: 0.5rem;
   white-space: nowrap;
   animation: scrolling linear infinite;
-  /* Ajusta la duración de la animación a tu gusto */
   animation-duration: 50s;
   @keyframes scrolling {
     0% {
@@ -33,7 +32,7 @@ export const BannerText = styled.a`
   text-decoration: none;
   display: flex;
   align-items: center;
-  margin-left: 20px; /* Agrega margen a la izquierda del texto */
+  margin-left: 20px;
   position: relative;
   &::before {
     content: attr(data-text);
@@ -79,6 +78,6 @@ export const BannerText = styled.a`
 export const AmazonIcon = styled(({ IconComponent, ...props }) => (
   <IconComponent {...props} />
 ))`
-  margin: 0 25px !important; /* Agrega margen horizontal al icono y usa !important para asegurarte de que prevalezca */
+  margin: 0 25px !important;
   font-size: 2rem !important;
 `;

@@ -1,4 +1,3 @@
-// components/PromotedProduct/PromotedProduct.js
 import React from 'react';
 import {
   PromotedProductContainer,

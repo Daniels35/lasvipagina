@@ -1,4 +1,3 @@
-// components/PromotedProduct/PromotedProduct.styles.js
 import styled from '@emotion/styled';
 
 export const PromotedProductContainer = styled.div`

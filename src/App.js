@@ -20,7 +20,7 @@ import Post from './components/Blog/Post';
 import NewPostPage from './pages/NewPostPage/NewPostPage';
 import Legal from './pages/Legal/Legal';
 import ScrollToTopButton from '../src/components/ScrollToTopButton/ScrollToTopButton';
-// Importa las demás páginas según sea necesario
+
 const App = () => {
   return (
     <Router>
@@ -41,7 +41,6 @@ const App = () => {
               <Route path="/lasvipagina/blog/new" element={<NewPostPage />} />
               <Route path="/lasvipagina/contact" element={<Contact />} />
               <Route path="/lasvipagina/legal" element={<Legal />} />
-              {/* Añade más rutas según sea necesario */}
             </Routes>
             <WhatsAppButton />
             <ScrollToTopButton />

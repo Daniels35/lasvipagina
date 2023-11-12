@@ -1,4 +1,3 @@
-// components/ScrollToTopButton/ScrollToTopButton.styles.js
 import styled from '@emotion/styled';
 
 export const ScrollToTopButtonStyled = styled.button`

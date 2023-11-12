@@ -17,7 +17,7 @@ export const Title = styled.h2`
   text-align: center;
 `;
 export const PostImage = styled.img`
-  max-width: 30%; // Cambia este valor según tus necesidades
+  max-width: 30%;
   max-height: auto;
   border-radius: 10px;
   margin-bottom: 1.5rem;

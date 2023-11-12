@@ -37,7 +37,6 @@ const NewPost = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log('Post creado exitosamente:', data);
-        // Aquí puedes redirigir al usuario al blog o al post específico
         alert('Post creado exitosamente.');
         handleClear();
       })

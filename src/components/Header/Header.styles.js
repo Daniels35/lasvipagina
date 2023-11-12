@@ -42,8 +42,8 @@ export const HamburgerIcon = styled.div`
   }
   @media (max-width: 370px) {
     position: absolute;
-    right: 20px; // Ajusta el valor según sea necesario
-    top: 20px; // Ajusta el valor según sea necesario
+    right: 20px;
+    top: 20px;
   }
 `;
 export const Navigation = styled.nav`
