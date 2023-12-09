@@ -76,7 +76,7 @@ const Home = () => {
         <div> 
           <ContentTitle>¿Quién es Carlos Lasvi?</ContentTitle>
           <ContentText>
-          Se considera uno de las mayores autoridades internacionales en acupuntura, ha impartido clases en diferentes escuelas, universidades y hospitales del mundo. Fundador de la Escuela Superior de Acupuntura CML Lasvi. <strong>Más información en <Link to="https://www.escueladeacupunturalasvi.es/" target="_blank">www.cmllasvi.es</Link></strong>
+          Se considera uno de las mayores autoridades internacionales en acupuntura, ha impartido clases en diferentes escuelas, universidades y hospitales del mundo. Fundador de la Escuela Superior de Acupuntura CML Lasvi.
 </ContentText>
 <ButtonContainer>
   <Link to ="/lasvipagina/about">
